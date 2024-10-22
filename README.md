@@ -33,16 +33,23 @@ Before you begin, ensure you have the following:
 - **AWS CDK**: Install the AWS CDK globally using npm:
   ```bash
   npm install -g aws-cdk
-  
-Installation
+
+## Installation
+
 Clone the repository:
+  
   ```bash
 git clone https://github.com/yourusername/aws-cdk-multi-region-infrastructure.git
+
+Navigate to the project folder
+  ```bash
 cd aws-cdk-multi-region-infrastructure
+
+
 Install dependencies:
 
   ```bash
-npm install
+npm install```
 Bootstrap your environment (if you haven't already):
 
   ```bash
@@ -63,8 +70,7 @@ After deployment, you will receive the API endpoint URL. You can use this URL to
   ```bash
 curl https://{api-id}.execute-api.{region}.amazonaws.com/prod/hello
 
-
-Architecture
+## Architecture
 This project includes the following components:
 
 VPC: A Virtual Private Cloud with one public subnet and one private subnet.
@@ -74,7 +80,7 @@ API Gateway: Routes HTTP requests to the Lambda function.
 SNS Topic: Sends notifications for budget alerts.
 Architecture Diagram
 
-Configuration
+## Configuration
 Environment Variables
 The shutdown Lambda function uses the following environment variables:
 
@@ -83,25 +89,26 @@ RDS_INSTANCE_IDENTIFIER: The identifier of the RDS instance.
 Email Notifications
 To receive budget alerts via email, replace "your-email@example.com" in the MultistackStack.java file with your actual email address.
 
-Budget Management
+
+## Budget Management
 This project implements a budget alert mechanism using AWS Budgets. It will notify you when your daily spending reaches 90% of the defined budget (£10). If the budget limit is exceeded, a Lambda function will be triggered to shut down both the EC2 instance and the RDS database.
 
 Monitoring Costs
 You can monitor costs directly in the AWS Billing Dashboard. Look for the budgets you’ve created to get insights on your spending.
 
-Cleanup
+## Cleanup
 To delete all resources created by this stack, run:
 
   ```bash
 cdk destroy
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contributing
+## Contributing
 Contributions are welcome! Please feel free to submit issues, pull requests, or suggestions.
 
-Contact
+## Contact
 For questions or feedback, please contact me at [your-email@example.com].
 
 Happy Coding!
