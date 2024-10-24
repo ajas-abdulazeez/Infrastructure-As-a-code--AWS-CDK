@@ -37,39 +37,44 @@ Before you begin, ensure you have the following:
 ## Installation
 
 Clone the repository:
-  
-  ```bash
-git clone https://github.com/yourusername/aws-cdk-multi-region-infrastructure.git
 
+  ```bash
+  git clone https://github.com/yourusername/aws-cdk-multi-region-infrastructure.git
+
+```
 Navigate to the project folder
   ```bash
 cd aws-cdk-multi-region-infrastructure
 
-
+```
 Install dependencies:
 
   ```bash
-npm install```
+npm install
+```
 Bootstrap your environment (if you haven't already):
-
   ```bash
 cdk bootstrap
-Usage
+```
+
+## Usage
 To deploy the infrastructure, use the following command:
 
   ```bash
 cdk deploy
+```
 To specify a particular region for deployment, set the AWS_DEFAULT_REGION environment variable:
 
   ```bash
 export AWS_DEFAULT_REGION=us-west-1
 cdk deploy
+```
 Accessing the Application
 After deployment, you will receive the API endpoint URL. You can use this URL to send GET requests to the API:
 
   ```bash
 curl https://{api-id}.execute-api.{region}.amazonaws.com/prod/hello
-
+```
 ## Architecture
 This project includes the following components:
 
@@ -101,7 +106,7 @@ To delete all resources created by this stack, run:
 
   ```bash
 cdk destroy
-
+```
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
@@ -109,7 +114,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contributions are welcome! Please feel free to submit issues, pull requests, or suggestions.
 
 ## Contact
-For questions or feedback, please contact me at [your-email@example.com].
+For questions or feedback, please contact me at [ajasasdev@gmail.com].
 
 Happy Coding!
 
@@ -117,11 +122,10 @@ markdown
 Copy code
 
 ### Customization Notes:
-- **Repository URL**: Replace `https://github.com/yourusername/aws-cdk-multi-region-infrastructure.git` with your actual repository URL.
+- **Repository URL**: https://github.com/ajas-abdulazeez/Infrastructure-As-a-code--AWS-CDK
 - **Architecture Diagram**: will update later.
-- **Contact Information**: Connect me via Linkedin.
+- **Contact Information**: Connect me via Linkedin. https://www.linkedin.com/in/ajasabdulazeez
 
 Feel free to modify any sections based on your specific requirements or preferences!
-
 
 
