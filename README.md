@@ -39,7 +39,7 @@ Before you begin, ensure you have the following:
 Clone the repository:
 
   ```bash
-  git clone https://github.com/yourusername/aws-cdk-multi-region-infrastructure.git
+  git clone https://github.com/ajas-abdulazeez/Infrastructure-As-a-code--AWS-CDK.git
 
 ```
 Navigate to the project folder
@@ -115,16 +115,7 @@ Contributions are welcome! Please feel free to submit issues, pull requests, or 
 
 ## Contact
 For questions or feedback, please contact me at [ajasasdev@gmail.com].
-
-Happy Coding!
-
-markdown
-Copy code
-
-### Customization Notes:
-- **Repository URL**: https://github.com/ajas-abdulazeez/Infrastructure-As-a-code--AWS-CDK
-- **Architecture Diagram**: will update later.
-- **Contact Information**: Connect me via Linkedin. https://www.linkedin.com/in/ajasabdulazeez
+Connect me via Linkedin. https://www.linkedin.com/in/ajasabdulazeez
 
 Feel free to modify any sections based on your specific requirements or preferences!
 
