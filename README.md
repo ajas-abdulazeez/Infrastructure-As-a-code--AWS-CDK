@@ -20,8 +20,7 @@ This project uses the AWS Cloud Development Kit (CDK) to provision a multi-regio
 5. [Configuration](#configuration)
 6. [Budget Management](#budget-management)
 7. [Cleanup](#cleanup)
-8. [License](#license)
-9. [Contributing](#contributing)
+8. [Contributing](#contributing)
 
 ## Prerequisites
 
@@ -107,8 +106,6 @@ To delete all resources created by this stack, run:
   ```bash
 cdk destroy
 ```
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit issues, pull requests, or suggestions.
